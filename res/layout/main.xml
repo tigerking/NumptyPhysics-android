@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/gamescreen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+         
+		</LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/flash"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#000000"
+            android:gravity="center">
+            <TextView 
+            	android:id="@+id/loading"
+            	android:textSize="18dip" 
+            	android:textStyle="bold|italic" 
+            	android:text="@string/loading"
+            	android:layout_width="fill_parent"
+            	android:layout_height="fill_parent"
+            	android:gravity="center">
+            </TextView>
+            
+        </LinearLayout> 
+
+ </FrameLayout>

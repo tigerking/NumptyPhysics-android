@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  
+  	<item android:id="@+id/menu_reset"
+			android:title="@string/reset"
+			android:icon="@android:drawable/ic_menu_revert" />
+
+  	<item android:id="@+id/menu_prev"
+			android:title="@string/prev_level"
+			android:icon="@android:drawable/ic_media_previous" />
+
+  	<item android:id="@+id/menu_next"
+			android:title="@string/next_level"
+			android:icon="@android:drawable/ic_media_next" />
+						
+	<item android:id="@+id/menu_settings"
+			android:title="@string/settings"
+			android:icon="@android:drawable/ic_menu_preferences" />	
+
+	<item android:id="@+id/menu_help"
+			android:title="@string/help"
+			android:icon="@android:drawable/ic_menu_help"/>
+			
+	<item android:id="@+id/menu_close"
+			android:title="@string/close"
+			android:icon="@android:drawable/ic_menu_close_clear_cancel" />			
+			
+</menu>

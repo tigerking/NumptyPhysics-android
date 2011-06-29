@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tiger="http://tiger.com/apk/res/android"
+		android:key="setting_screen" >
+
+	<PreferenceCategory android:title="@string/sound_settings">
+		<CheckBoxPreference android:key="backgroundSoundEnable"
+			android:title="@string/backgroundSoundEnable" 
+			android:defaultValue="true" />
+
+		<ListPreference android:key="soundTrack"
+			android:title="@string/soundTrack" 
+			android:summary="@string/soundTrack_summayr"
+			android:dependency="backgroundSoundEnable"/>
+
+ 
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/other_settings"
+	                             android:key="other_settings">	
+		<PreferenceScreen android:key="about"
+			android:title="@string/about" />
+
+	</PreferenceCategory>	
+
+ 
+</PreferenceScreen>

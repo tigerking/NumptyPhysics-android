@@ -1,0 +1,3 @@
+stlport can be found
+
+http://sourceforge.net/projects/stlport/

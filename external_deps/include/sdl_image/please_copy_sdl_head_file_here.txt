@@ -1,0 +1,1 @@
+https://github.com/pelya/commandergenius/tree/sdl_android/project/jni/sdl_image

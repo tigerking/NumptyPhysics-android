@@ -1,0 +1,24 @@
+
+Please put below libs here since the build system need link those libs.
+All those libs can be built from open source project (refer to the links)
+
+1.libjpeg.a
+you can get it from your android phone or build it from android release
+
+2.libpng.a
+you can get it from your android phone or build it from android release
+
+3. libsdl-1.2.a
+https://github.com/pelya/commandergenius/tree/sdl_android/project/jni/sdl-1.2
+Build from above path but set the lib to be static.
+
+4.libsdl.a
+soft link to libsdl-1.2.a for no Makefile changes when we use libsdl-1.3.a late.
+
+5.libsdl_image.a
+https://github.com/pelya/commandergenius/tree/sdl_android/project/jni/sdl_image
+Build from above path but set the lib to be static.
+
+6. libstlport.a
+http://sourceforge.net/projects/stlport/
+Build from above path but set the lib to be static.
